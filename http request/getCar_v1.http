@@ -1,0 +1,1 @@
+GET http://localhost:5500/car?id=1708549846595 HTTP/1.1
