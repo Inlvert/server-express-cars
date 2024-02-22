@@ -15,3 +15,7 @@ app.listen(PORT, () => {
 app.use(express.json());
 
 app.use(router);
+
+app.use (async (err, req, res, next) => {
+  res.send(err.message)
+})
