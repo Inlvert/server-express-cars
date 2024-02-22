@@ -1,11 +1,12 @@
 [
     {
-        "producer": "porshe",
+        "producer": "porsheGT",
         "model": "porshe",
-        "yearOfProdaction": "2024",
-        "engineVolume": "4L",
+        "yearOfProdaction": "2000",
+        "engineVolume": "100L",
         "typeOfCarBody": "boxster",
-        "id": 1708549846595
+        "id": 1708593021373,
+        "isElectric": true
     },
     {
         "producer": "porshe",
@@ -13,7 +14,7 @@
         "yearOfProdaction": "2024",
         "engineVolume": "4L",
         "typeOfCarBody": "boxster",
-        "id": 1708549848472
+        "id": 1708593024890
     },
     {
         "producer": "porshe",
@@ -21,7 +22,7 @@
         "yearOfProdaction": "2024",
         "engineVolume": "4L",
         "typeOfCarBody": "boxster",
-        "id": 1708549849532
+        "id": 1708593027421
     },
     {
         "producer": "porshe",
@@ -29,6 +30,6 @@
         "yearOfProdaction": "2024",
         "engineVolume": "4L",
         "typeOfCarBody": "boxster",
-        "id": 1708550695609
+        "id": 1708593028152
     }
 ]

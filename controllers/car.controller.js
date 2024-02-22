@@ -33,3 +33,23 @@ module.exports.getCarQuery = async (req, res, next) => {
   res.send(car);
   console.log(id);
 };
+
+module.exports.deleteCar = async (req, res, next) => {
+  const {
+    params: { carId },
+  } = req;
+
+  const car = await Car.deleteById(+carId);
+  res.send(car);
+  console.log(car);
+};
+
+module.exports.updateCar = async (req, res, next) => {
+  const {
+    params: { carId },
+    body
+  } = req;
+  const car = await Car.updateById(+carId, body);
+  res.send(car);
+  console.log(car);
+};
