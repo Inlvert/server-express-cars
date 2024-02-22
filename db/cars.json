@@ -31,5 +31,22 @@
         "engineVolume": "4L",
         "typeOfCarBody": "boxster",
         "id": 1708593028152
+    },
+    {
+        "producer": "porshe",
+        "model": "porshe",
+        "yearOfProdaction": "2024",
+        "engineVolume": "4L",
+        "typeOfCarBody": "boxster",
+        "id": 1708611602487
+    },
+    {
+        "producer": "porsheGT",
+        "model": "porshe",
+        "yearOfProdaction": "2000",
+        "engineVolume": "100L",
+        "typeOfCarBody": "boxster",
+        "id": 1708612046320,
+        "isElectric": true
     }
 ]
