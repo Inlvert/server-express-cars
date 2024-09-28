@@ -17,5 +17,5 @@ app.use(express.json());
 app.use(router);
 
 app.use (async (err, req, res, next) => {
-  res.send(err.message)
+  res.status(404).send(err.message)
 })
